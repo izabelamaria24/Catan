@@ -7,7 +7,7 @@
 class Resource : Element<ResourceType> {
 public:
     Resource(ResourceType type, std::shared_ptr<Entity> inputOwner, int id, double positionX, double positionY)
-            : Element<ResourceType>(type, std::move(owner), id, positionX, positionY) {}
+            : Element<ResourceType>(type, std::move(inputOwner), id, positionX, positionY) {}
 
     void place(double positionX, double positionY) override {
         // Implement placing logic for Resource

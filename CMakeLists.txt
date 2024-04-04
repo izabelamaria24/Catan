@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.24)
 
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing executable name in this file
 # for now, the project name is used as the executable name
-project(oop)
+project(Catan)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -129,6 +129,18 @@ add_executable(${PROJECT_NAME}
     main.cpp
     generated/src/Helper.cpp
     env_fixes.h
+        Resource.cpp
+        Dice.cpp
+        Board.cpp
+        headers/Building.h
+        headers/Element.h
+        headers/Entity.h
+        headers/Game.h
+        headers/Player.h
+        headers/PortType.h
+        headers/ResourceBank.h
+        headers/Road.h
+        headers/BuildingType.h
 )
 
 ###############################################################################

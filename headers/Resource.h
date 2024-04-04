@@ -2,7 +2,7 @@
 #include <utility>
 
 #include "Element.h"
-#include "ResourceType.h"
+#include "ResourceType.hpp"
 
 class Resource : Element<ResourceType> {
 public:
@@ -13,7 +13,7 @@ public:
         // Implement placing logic for Resource
     }
 
-    void addResource();
-    void useResource();
+//    void addResource();
+//    void useResource();
     [[nodiscard]] int getCount() const;
 };

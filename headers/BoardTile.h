@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include "ResourceType.h"
+#include "ResourceType.hpp"
 
 // hexagonal board tiles
 class BoardTile {

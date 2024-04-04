@@ -137,10 +137,10 @@ add_executable(${PROJECT_NAME}
         headers/Entity.h
         headers/Game.h
         headers/Player.h
-        headers/PortType.h
+        headers/PortType.hpp
         headers/ResourceBank.h
         headers/Road.h
-        headers/BuildingType.h
+        headers/BuildingType.hpp
 )
 
 ###############################################################################

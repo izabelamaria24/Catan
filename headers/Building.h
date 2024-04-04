@@ -1,6 +1,6 @@
 #pragma once
 
-#include "BuildingType.h"
+#include "BuildingType.hpp"
 #include "Element.h"
 
 class Building : Element<BuildingType> {

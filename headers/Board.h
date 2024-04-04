@@ -3,7 +3,7 @@
 #include <random>
 #include <algorithm>
 #include "BoardTile.h"
-#include "ResourceType.h"
+#include "ResourceType.hpp"
 
 class Board {
     std::vector<BoardTile>tiles;

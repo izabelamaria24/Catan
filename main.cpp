@@ -3,11 +3,11 @@
 #include <thread>
 
 #include <SFML/Graphics.hpp>
-#include "env_fixes.h"
+//#include "env_fixes.h"
 #include "headers/Board.h"
 
 int main() {
-    init_threads();
+//    init_threads();
 
     Board board;
     std::cout << board;

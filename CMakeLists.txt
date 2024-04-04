@@ -128,7 +128,6 @@ endif()
 add_executable(${PROJECT_NAME}
     main.cpp
     generated/src/Helper.cpp
-    env_fixes.h
         Resource.cpp
         Dice.cpp
         Board.cpp
